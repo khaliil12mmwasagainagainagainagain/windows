@@ -1,4 +1,4 @@
-ervices:
+services:
   windows:
     image: dockurr/windows
     container_name: windows
