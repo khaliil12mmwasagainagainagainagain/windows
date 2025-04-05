@@ -8,8 +8,6 @@ services:
   DISK_SIZE: "256G"
   RAM_SIZE: "16G"
   CPU_CORES: "8"
-  USERNAME: "khaliil12mm"
-  PASSWORD: "123khaliil"
     devices:
       - /dev/kvm
       - /dev/net/tun
