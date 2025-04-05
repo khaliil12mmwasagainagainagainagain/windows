@@ -6,7 +6,7 @@ services:
       VERSION: "11"
       MANUAL: "Y"
   DISK_SIZE: "256G"
-  RAM_SIZE: "16G"
+  RAM_SIZE: "8G"
   CPU_CORES: "8"
     devices:
       - /dev/kvm
