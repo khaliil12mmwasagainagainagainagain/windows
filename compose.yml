@@ -6,6 +6,8 @@ services:
       VERSION: "7"
       MANUAL: "Y"
   DISK_SIZE: "256G"
+  RAM_SIZE: "16G"
+  CPU_CORES: "20"
     devices:
       - /dev/kvm
       - /dev/net/tun
