@@ -5,6 +5,7 @@ services:
     environment:
       VERSION: "7"
       MANUAL: "Y"
+  DISK_SIZE: "256G"
     devices:
       - /dev/kvm
       - /dev/net/tun
