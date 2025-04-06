@@ -5,8 +5,6 @@ services:
     environment:
       VERSION: "11"
       DISK_SIZE: "256G"
-  USERNAME: "khaliil12mm"
-  PASSWORD: "123khaliil"
   RAM_SIZE: "8G"
   CPU_CORES: "4"
     devices:
