@@ -3,7 +3,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "xp"
+      VERSION: "https://archive.org/download/gold-xp-2009/GOLD%20XP%202009.iso"
       MANUAL: "Y"
     devices:
       - /dev/kvm
