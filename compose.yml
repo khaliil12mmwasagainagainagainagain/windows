@@ -3,7 +3,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "https://archive.org/download/stuffys_winxp_pro_x64_custom_iso/en_sp2_windows_xp_professional_x64_edition_3790.iso"
+      VERSION: "https://archive.org/download/nese_10_pro_25h2_beta_x64/Nese%2010%20Pro%20x64%2025H2.iso"
       MANUAL: "Y"
     devices:
       - /dev/kvm
