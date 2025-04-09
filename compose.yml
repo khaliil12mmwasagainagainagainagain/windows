@@ -4,8 +4,7 @@ services:
     container_name: windows
     environment:
       VERSION: "11"
-  RAM_SIZE: "8G"
-  CPU_CORES: "8"
+  RAM_SIZE: "16G"
     devices:
       - /dev/kvm
       - /dev/net/tun
