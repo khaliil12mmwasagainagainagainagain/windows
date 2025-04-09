@@ -3,8 +3,10 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "https://archive.org/download/nese_10_pro_25h2_beta_x64/Nese%2010%20Pro%20x64%2025H2.iso"
-      MANUAL: "Y"
+      VERSION: "11"
+  DISK_SIZE: "256G"
+  RAM_SIZE: "8G"
+  CPU_CORES: "8"
     devices:
       - /dev/kvm
       - /dev/net/tun
