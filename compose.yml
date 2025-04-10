@@ -4,7 +4,6 @@ services:
     container_name: windows
     environment:
       VERSION: "https://archive.org/download/Windows7SP1DANAIOx86x64/Win7_DA_32_SP1_multiDVD.iso"
-     MANUAL: "Y"
     devices:
       - /dev/kvm
       - /dev/net/tun
