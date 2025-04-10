@@ -5,7 +5,6 @@ services:
     environment:
       VERSION: "7"
       LANGUAGE: "Danish"
-      MANUAL: "Y"
     devices:
       - /dev/kvm
       - /dev/net/tun
