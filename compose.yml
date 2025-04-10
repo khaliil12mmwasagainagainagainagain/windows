@@ -4,6 +4,8 @@ services:
     container_name: windows
     environment:
       VERSION: "7"
+      LANGUAGE: "Danish"
+      MANUAL: "Y"
     devices:
       - /dev/kvm
       - /dev/net/tun
